@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  6 JAN 2016 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.24)  6 JAN 2016 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,24 +1031,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 133BAE9A7FD4EC315D42CE47893F2F67;2203
-(rerunfilecheck)             After:  888CFA53CB574E30621FEC9C520A4C44;2207.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 888CFA53CB574E30621FEC9C520A4C44;2207.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 540.
  ) 
 Here is how much of TeX's memory you used:
  12291 strings out of 493089
  174117 string characters out of 6138424
- 278305 words of memory out of 5000000
+ 278332 words of memory out of 5000000
  15233 multiletter control sequences out of 15000+600000
  56358 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1123,7 +1113,7 @@ nu/gbsnu91.pfb><c:/texlive/2015/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb
 rphic/gbsnu/gbsnu98.pfb><c:/texlive/2015/texmf-dist/fonts/type1/arphic/gbsnu/gb
 snu99.pfb><c:/texlive/2015/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><c:/
 texlive/2015/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
-Output written on main.pdf (17 pages, 1677762 bytes).
+Output written on main.pdf (17 pages, 1677799 bytes).
 PDF statistics:
  787 PDF objects out of 1000 (max. 8388607)
  525 compressed objects within 6 object streams
