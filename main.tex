@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 
 \usepackage{amsmath} \usepackage{balance} \usepackage{setspace}
-\usepackage[title,titletoc,toc]{appendix} \usepackage{minted} \usepackage{url}
+\usepackage[title,titletoc,toc]{appendix} \usepackage{url}
 \usepackage{graphicx} \usepackage{wrapfig} \usepackage{subcaption}
 \graphicspath{ {images/} }
 % \usepackage[backend=biber, style=phys,]{biblatex}
@@ -117,7 +117,7 @@ $^{87}Rb$的基态则具有$F =2$和$F =1$。通过$I-J$耦合且由量子数标
 式中磁量子数$m_F=F,F-1,...,-F$，这意味着具有量子数$F$的超精细结构中的各能级在外磁场$B$中将进一步分裂为$(2F+1)$个塞曼子能级，
 相邻能级间距相等且由式~\eqref{2-6-5}确定。 $^{85}Rb$和$^{87}Rb$基态及最低激发态的精细结构、
 超精细结构和在外磁场中塞曼子能级结构如图~\ref{fig2-6-1}所示。
-\begin{figure}[H]
+\begin{figure}[h!]
 \centering
 \includegraphics[width=.6\textwidth]{fig2-6-1}
 \caption{$^{85}Rb$和$^{87}Rb$基态及最低激发态的能级示意图}
@@ -147,7 +147,7 @@ $D_1\sigma^+$光只能将基态中除$m_F = +2$以外各子能级的原子激发
 跃迁到$5^2P_{1/2}$上的原子通过自发辐射及无辐射跃迁两种过程，以相等的几率回到基态$5^2S_{1/2}$各个子能级。
 如图~\ref{fig2-6-2}(b)所示。这样，经过多次受激$\to$返回，基态$m_F=+2$子能级上的粒子数只增不减，
 即基态其他能级上的粒子被抽运到基态$m_F=+2$子能级上，从而达到粒子布居数偏极化的目的。
- \begin{figure}[!htbp]
+ \begin{figure}[!h]
 \centering
 \includegraphics[width=.6\textwidth]{fig2-6-2}
 \caption{光抽运过程}
@@ -199,7 +199,7 @@ $D_1\sigma^+$作用于$^{85}Rb$，是$m_F=+3$与非$m_F=+3$能级粒子数分布
 
 \section{实验技术方法}
 光泵磁共振实验装置由主体单元和辅助设备组成，如图~\ref{fig2-6-3}所示。
-\begin{figure}[H]
+\begin{figure}[h!]
 \centering
 \includegraphics[width=.6\textwidth]{fig2-6-3}
 \caption{光泵磁共振实验装置方框图}
@@ -207,7 +207,7 @@ $D_1\sigma^+$作用于$^{85}Rb$，是$m_F=+3$与非$m_F=+3$能级粒子数分布
 \end{figure} 
 \par 
 主体单元结构如图~\ref{fig2-6-4}所示，各元件的用途说明如下：
-\begin{figure}[!htbp]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=.8\textwidth]{fig2-6-4}
 \caption{实验装置主体单元示意图}
@@ -276,7 +276,7 @@ B=4.496 \frac{NI}{r},
 以便更好的进行磁共振信号观测。
 
 \subsection{光抽运的磁场关系(半定量分析，选做)}
-改变竖直线圈励磁电流大小和方向，光测并详细记录光抽运信号的变化，研究光抽运信号（峰面积）与垂直磁场的关系。
+改变竖直线圈励磁电流大小和方向，观测并详细记录光抽运信号的变化，研究光抽运信号（峰面积）与垂直磁场的关系。
 使合成磁场垂直分量为零（光抽运信号达到最大），改变水平线圈励磁电流大小和方向，观测并详细记录光抽运信号的变化，研究光抽运信号
 （峰面积）与水平磁场的关系。基于物理基础原理，对实验数据进行拟合分析，并对上述物理现象作出合理解释。
 
@@ -320,6 +320,75 @@ h\nu=g_F\mu_BB_P+g_F\mu_B(B_S+B_{\parallel}).
 可以获得$^{85}Rb$和$^{87}Rb$分析在$\sigma^+$和$\sigma^-$作用时的实验结果。
 
 \section{实验数据分析}
+\subsection{观察光抽运信号}
+铷样品泡开始加上方波扫场的一瞬间，基态中各塞曼子能级上的粒子数接近热平衡，即各子能级上的粒子数大致相等。
+因此这一瞬间有总粒子数$7/8$的粒子在吸收$D_1$光，对光的吸收最强。随着粒子逐渐被抽运到$m_F=+2$子能级上，
+能吸收$\sigma +$的光粒子数减少，透过铷样品泡的光逐渐增强。当抽运到$m_F=+2$子能级上的粒子数达到饱和时，
+透过铷样品泡的光达到最大且不再变化。当磁场扫过零(指水平方向的总磁场为零)然后反向时，各塞曼子能级跟随着发
+生简并随即再分裂。能级简并时铷原子分布由于碰撞等导致自旋方向混杂而失去了偏极化，所以重新分裂后各塞曼子能
+级上的粒子数又近似相等，对$D_1 \sigma +$光的吸收又达到最大值，这样就观察到了周期性的光抽运信号，如图~\ref{fig:fanga} 。
+\begin{figure}[h!]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{fang} 
+\caption{方波抽运信号}
+\label{fig:fanga}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\centering
+\includegraphics[width=0.66\linewidth]{tau}
+\caption{弛豫现象}
+\label{fig:fangb}
+\end{subfigure}
+\caption{抽运信号与弛豫现象}\label{fig:fang}
+\end{figure}
+试验中，我们分别独立调节垂直磁场和水平磁场，观察并记录波形变化，来加深对光抽运信号的理解，各情况波形变化
+较不规则，细节可参考后附实验数据记录部分。\par 
+另一方面图~\ref{fig:fangb}反映了原子内部的弛豫过程，信号幅度最大值$V_s/\sqrt{2}$对应的时间$\tau$可视为弛豫
+时间。也可以证明弛豫过程满足的曲线形式为
+\begin{equation}
+V=V_0(1-e^{-t/\tau}),\label{eq:tau}
+\end{equation}
+其中$\tau$为弛豫时间。我们利用数字示波器获得两组不同实验条件下的弛豫现象波形数据，并用式~\eqref{eq:tau}拟合
+可以对弛豫时间$\tau$进行半定量的讨论。
+
+\subsection{观测光磁共振信号}
+接下来引入射频信号发生器，并改用三角波扫场来产生共振吸收信号。确认合成磁场垂直
+分量为零（光抽运信号达到最大），调节适量的射频场幅度，选择适当射频场频率$(300\sim 400MHZ)$和信号功
+率输出。在磁共振点附近选定水平
+磁场强度，可以观察到$^{85}Rb$和$^{87}Rb$的磁共振信号随三角波扫场的波谷、波峰
+的情形，但两种情况都不稳定，共振信号极容易消失。而调节水平场励磁电流可以得到稳定的腰部共振吸收图形。
+三种情形的具体实验条件及波形请参考后附的实验数据记录部分。\par 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{1112a}
+\caption{$|B_P|<|B_S+B_{\parallel}|$情形实验测量结果}
+\label{fig:gf}
+\end{figure}
+我们因此选择腰部作为实验测量参考点，进行郎德因子$g_F$分析。若扫场$B_S$幅值很大，励磁场
+$B_P$较小，则可满足$|B_P|<|B_S+B_{\parallel}|$情形。共振信号吸收峰处于三
+角波扫场半高位置时，另一个比较好判断的特点是吸收峰等间隔，我们可以由此增加实验准确性。数
+据拟合结果见图~\ref{fig:gf}。图中磁场为采用公式~\eqref{2-6-10}得到，
+直线为最小二乘法拟合得到，$^{85}Rb$和$^{87}Rb$的正
+向与反向磁场拟合的相关系数的绝对值均高于$0.999$。由式~\eqref{2-6-12}可知,直线斜率$k$倒数与
+$g_F$成正比，即
+\begin{equation}
+\frac{1}{k} = \frac{g_F\mu_B}{h}.
+\end{equation}
+正斜率表示总外磁场$B$与抽运光传播同向，负斜率意味着$B$与抽运光传播逆向；斜
+率不为零的实验结果分别属于$\sigma +$与$\sigma -$抽运的$^{85}Rb$和$^{87}Rb$共振吸收。
+反解朗德因子有
+\begin{equation}
+g_F = \frac{h}{k \mu_B}.
+\end{equation}
+从图~\ref{fig:gf}可得：$\sigma +$抽运时，$^{85}Rb$和$^{87}Rb$的朗德因子$g_F$分别为
+$0.3316$和$0.4962$；$\sigma -$抽运时，$g_F$分别为$0.3326$和$0.4979$。
+而$^{85}Rb$朗德因子理论值是$1/3$，$^{87}Rb$朗德因子理论值是$1/2$，因此相对误差为
+\begin{equation}
+\delta_{85} = 0.4\%,\qquad \delta_{87} = 0.6\%.
+\end{equation}
+斜率为零的实验数据是光抽运信号，因为它与射频场频率无关。
+
+\subsection{关于扫场的讨论}
 
 
 \section{思考与讨论}
@@ -340,7 +409,8 @@ h\nu = g_F\mu_FB.
 \begin{eqnarray} 
 h\nu=g_F\mu_BB_P+g_F\mu_B(B_S+B_{\parallel}),
 \end{eqnarray}
-可得$B_S+B_{\parallel}$固定时，$(\nu,B_P)$满足线性关系。
+可得若实验测量中吸收峰定位方法保持一致，式~\eqref{2-6-12}中第二项中$B_S+B_{\parallel}$固定，
+$(\nu,B_P)$满足线性关系。
 \item  采用不同的磁共振信号定位方法影响朗德因子的实验结果吗？\par 
 不影响。朗德因子是粒子本身的特性，不同的磁共振信号会造成$B_S+B_{\parallel}$变化，即截距变化，但不会影
 响到直线的斜率，即不影响朗德因子的测定。
