@@ -341,44 +341,14 @@ h\nu=g_F\mu_BB_P+g_F\mu_B(B_S+B_{\parallel}).
 \end{subfigure}
 \caption{抽运信号与弛豫现象}\label{fig:fang}
 \end{figure}
-试验中，我们分别独立调节垂直磁场和水平磁场，观察并记录波形变化，来加深对光抽运信号的理解，各情况波形变化
-较不规则，细节可参考后附实验数据记录部分。\par 
-\subsubsection{对弛豫时间的讨论及光抽运的磁场关系}
-在一个自旋方向无规则排列的自旋粒子体系中突然加入恒定磁场，则体系中的磁偶极子会立刻绕着磁场轴向产生进动并
-慢慢向主磁场方向偏移。一段时间后，偶极子将与磁场达到热平衡。从磁场方向的零磁化强度开始，经过$T_1$时间，
-粒子在外磁场方向的磁化强度达到最大值的$1-1/e$，则$T_1$称为该体系的纵向弛豫时间。
 另一方面图~\ref{fig:fangb}反映了原子内部的弛豫过程，信号幅度最大值$V_s/\sqrt{2}$对应的时间$\tau$可视
-为弛豫时间。实际上这里的弛豫时间近似等于该体系在自由无规则状态下突然加入恒定外磁场后体系与外界环
-境趋向热平衡的时间$T_1$。\par 
-也可以证明弛豫过程满足的曲线形式为
-\begin{equation}
-V=V_0(1-e^{-t/\tau}),\label{eq:tau}
-\end{equation}
-其中$\tau$为弛豫时间。我们利用数字示波器获得两组不同实验条件下的弛豫现象波形数据，并用式~\eqref{eq:tau}拟合
-可以对弛豫时间$\tau$进行半定量的讨论。这里的讨论也恰好给出光抽运的磁场关系。\par 
-\begin{figure}[h!]
-\begin{subfigure}{0.50\textwidth}
-\includegraphics[width=\linewidth]{1112b} 
-\caption{$1000kHz$对应弛豫现象及拟合}
-\label{fig:1000}
-\end{subfigure}
-\begin{subfigure}{0.50\textwidth}
-\centering
-\includegraphics[width=\linewidth]{1112c}
-\caption{$400kHz$对应弛豫现象及拟合}
-\label{fig:400}
-\end{subfigure}
-\caption{不同条件的弛豫时间比较}\label{fig:comt}
-\end{figure}
-在$\nu=1000kHz$时，水平场励磁电流大小为$0.405A$，在$\nu=400kHz$时，水平场励磁电流大小为$0.073A$。
-如前分析，$\tau\sim T_1$会受到磁场的影响，外加磁场越强时，到达平衡所需时间越长。用两组数据作图,
-图~\ref{fig:comt}中信号在方波换向前未达到完全饱和，我们丢弃明显不符合式~\eqref{eq:tau}形式的部分拟合，可以得到
-对图~\ref{fig:1000}有$\tau = 0.0108s$，对图~\ref{fig:400}有$\tau = 0.0069s$，如所期望。
-图中信号未达到完全饱和的可能原因有两点，一是扫场频率还未足够小，以使每个半周期内光抽运未能达到完全饱和；
-而是实际操作时，方波噪声很大（示波器上线条很粗），这也可能对波形产生明显影响。\par 
-本节最后指出，光抽运的磁场关系，即光抽运信号（峰面积）与水平磁场的关系也由前述讨论给出。抽运信号的峰面积随
-水平场的增大而增大，这是由于弛豫时间同时也可表征抽运信号的峰面积，而弛豫时间会随着水平场的增大而增大，如前所证。
-
+为弛豫时间。由于最佳抽运信号只有一点，与射频和磁场无关，因此这里的弛豫时间应为一个描述$Rb$原子本征特性的量。\par 
+实验中，我们分别独立调节垂直磁场和水平磁场，观察并记录波形变化，来加深对光抽运信号的理解，各情况波形变化
+较不规则，图形细节可参考后附实验数据记录部分。较小范围的改变竖直线圈励磁电流大小时，吸收峰会变小，且相邻
+吸收峰大小不等；比较明显的增大垂直线圈励磁电流时，可以看到波形几乎变为一条直线，只在吸收峰附近有图形出现。
+改变水平线圈励磁电流大小时，由于前面的水平场比较小，我们只增大水平场观察波形。现象仍然是相邻两峰不再对称，
+且随水平场的增大，峰峰值不断减小。
+\par 
 \subsection{观测光磁共振信号}
 接下来引入射频信号发生器，并改用三角波扫场来产生共振吸收信号。确认合成磁场垂直
 分量为零（光抽运信号达到最大），调节适量的射频场幅度，选择适当射频场频率$(300\sim 400MHZ)$和信号功
@@ -415,6 +385,40 @@ $0.3316$和$0.4962$；$\sigma -$抽运时，$g_F$分别为$0.3326$和$0.4979$。
 \delta_{85} = 0.4\%,\qquad \delta_{87} = 0.6\%.
 \end{equation}
 斜率为零的实验数据是光抽运信号，因为它与射频场频率无关。
+
+\subsubsection{对弛豫时间的讨论}
+在一个自旋方向无规则排列的自旋粒子体系中突然加入恒定磁场，则体系中的磁偶极子会立刻绕着磁场轴向产生进动并
+慢慢向主磁场方向偏移。一段时间后，偶极子将与磁场达到热平衡。从磁场方向的零磁化强度开始，经过$T_1$时间，
+粒子在外磁场方向的磁化强度达到最大值的$1-1/e$，则$T_1$称为该体系的纵向弛豫时间。注意到在方波扫场时，类似
+光抽运，我们也有类似图~\ref{fig:fangb}的弛豫现象，同样定义一个弛豫时间$\tau$来描述这里的现象。
+实际上这里的弛豫时间近似等于该体系在自由无规则状态下突然加入恒定外磁场后体系与外界环
+境趋向热平衡的时间$T_1$。\par 
+也可以证明弛豫过程满足的曲线形式为
+\begin{equation}
+V=V_0(1-e^{-t/\tau}),\label{eq:tau}
+\end{equation}
+其中$\tau$为弛豫时间\cite{lcr}。我们利用数字示波器获得两组不同实验条件下的弛豫现象波形数据，并用式~\eqref{eq:tau}拟合
+可以对弛豫时间$\tau$进行半定量的讨论。\par 
+\begin{figure}[h!]
+\begin{subfigure}{0.50\textwidth}
+\includegraphics[width=\linewidth]{1112b} 
+\caption{$1000kHz$对应弛豫现象及拟合}
+\label{fig:1000}
+\end{subfigure}
+\begin{subfigure}{0.50\textwidth}
+\centering
+\includegraphics[width=\linewidth]{1112c}
+\caption{$400kHz$对应弛豫现象及拟合}
+\label{fig:400}
+\end{subfigure}
+\caption{不同条件的弛豫时间比较}\label{fig:comt}
+\end{figure}
+在$\nu=1000kHz$时，水平场励磁电流大小为$0.405A$，在$\nu=400kHz$时，水平场励磁电流大小为$0.073A$。
+如前分析，$\tau\sim T_1$会受到磁场的影响，外加磁场越强时，到达平衡所需时间越长。用两组数据作图,
+图~\ref{fig:comt}中信号在方波换向前未达到完全饱和，我们丢弃明显不符合式~\eqref{eq:tau}形式的部分拟合，可以得到
+对图~\ref{fig:1000}有$\tau = 0.0108s$，对图~\ref{fig:400}有$\tau = 0.0069s$，如所期望。
+图中信号未达到完全饱和的可能原因有两点，一是扫场频率还未足够小，以使每个半周期内光抽运未能达到完全饱和；
+而是实际操作时，方波噪声很大（示波器上线条很粗），这也可能对波形产生明显影响。\par 
 
 
 \begin{figure}[h]
@@ -520,7 +524,7 @@ B_{\parallel}=\frac{h(\nu_1+\nu_2)}{2 g_F\mu_B}.
 %\bibitem{data}Hg (all spectra). NIST Atomic Spectra Database Lines Data[DB/OL]. \url{http://physics.nist.gov/cgi-bin/ASD/lines1.pl}.
 %\bibitem{reffh}Rapior, G.; Senstock, K.; Baev, V.. New features of the Franck–Hertz experiment[J]. Amer. J. Phys. (2006), 74: 423–428.
 %\bibitem{ref03}Warren J. Smith. Modern Optical Engineering[M]. McGraw-Hill Education，New York. 2007.
-%\bibitem{ref04}曹炳元. 物元分析法及其在投资决策中的应用[C]. 中国第二次物元分析学术讨论会论文选. 广州, 1986.
+\bibitem{lcr}李潮锐,刘小伟. 光磁共振研究Rb同位素光抽运响应[J]. 中山大学学报, (2008), 47(1), 29-32.
 \end{thebibliography}
 \end{CJK*}
 %\begin{CJK*}{UTF8}{gbsn}
